@@ -81,7 +81,7 @@ export default function Login() {
             </div>
 
             {/* Right / bottom panel — form */}
-            <div className="flex-1 flex items-center justify-center px-6 py-10 sm:py-14 md:py-0">
+            <div className="md:flex-1 flex items-center justify-center px-6 py-10 sm:py-14 md:py-0">
                 <div className="w-full max-w-sm">
                     <p className="font-serif italic text-2xl sm:text-3xl text-gray-700 mb-6 sm:mb-8 text-center md:text-left">
                         Nexibe

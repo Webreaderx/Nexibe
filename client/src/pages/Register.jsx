@@ -179,7 +179,7 @@ const handleSubmit=async (e)=>{
             </div>
 
       {/* Right / bottom panel — form */}
-      <div className="flex-1 flex items-center justify-center px-6 py-8 md:py-4 md:overflow-y-auto">
+      <div className="md:flex-1 flex items-center justify-center px-6 py-8 md:py-4 md:overflow-y-auto">
         <div className="w-full max-w-sm">
           <p className="font-serif italic text-xl sm:text-2xl text-gray-700 mb-3 md:mb-4 text-center md:text-left">
             Nexibe
