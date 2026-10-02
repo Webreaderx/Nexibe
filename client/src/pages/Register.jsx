@@ -158,7 +158,7 @@ const handleSubmit=async (e)=>{
   return (
     <div className="min-h-screen md:h-screen w-full flex flex-col md:flex-row bg-white md:overflow-hidden">
       {/* Left / top panel — illustration */}
-      <div className="relative flex flex-col items-center justify-between md:justify-center bg-[#a9c1ae] md:w-1/2 px-6 py-8 md:py-12 overflow-hidden">
+      <div className="relative hidden md:flex flex-col items-center justify-between md:justify-center bg-[#a9c1ae] md:w-1/2 px-6 py-8 md:py-12 overflow-hidden">
                 <div className="hidden md:block" />
 
                 
@@ -172,6 +172,10 @@ const handleSubmit=async (e)=>{
                 </div>
 
 
+            </div>
+
+            <div className=" flex md:hidden items-center justify-center w-full">
+              <img className="h-50" src="\images\Logo_tag tr.png" alt="" />
             </div>
 
       {/* Right / bottom panel — form */}
