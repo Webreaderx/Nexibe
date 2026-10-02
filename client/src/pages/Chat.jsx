@@ -114,7 +114,7 @@ export default function Chat() {
   const messagesEndRef = React.useRef(null);
 
   const [users, setUsers] = useState([]);
-  const { setUser, socket, user, token, getCurrentUser } = useContext(AuthContext);
+  const { setUser, socket, user, token, getCurrentUser,setToken } = useContext(AuthContext);
   const [sendError, setSendError] = useState("");
   const inputRef = useRef(null);
   const messagesContainerRef = useRef(null);
@@ -517,8 +517,13 @@ const isOnline =
       <div className={`w-full sm:w-[260px] md:w-[300px] lg:w-[340px] flex flex-col border-r border-gray-100 shrink-0 ${selectedId ? "hidden sm:flex" : "flex"
         }`}>
         {/* Logo */}
-        <div className="px-2 sm:px-4 py-4 border-b border-gray-100 flex justify-center justify-start">
+        <div className="px-2 sm:px-4 py-4 border-b border-gray-100 flex items-center  justify-between">
           <Logo />
+          <img className="h-10 mr-2 cursor-pointer" src="\images\logout.png" alt="" onClick={()=>{
+            setToken("");
+            localStorage.removeItem("token");
+            setUser("");
+          }} />
         </div>
 
         {/* Search bar */}

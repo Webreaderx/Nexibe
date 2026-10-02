@@ -76,8 +76,11 @@ export default function Login() {
 
             </div>
 
-            <div className=" flex md:hidden items-center justify-center w-full">
+            {/* mobile logo */}
+
+            <div className=" flex md:hidden items-center mt-2 justify-center w-full">
               <img className="h-30" src="\images\Logo_tag tr.png" alt="" />
+
             </div>
 
             {/* Right / bottom panel — form */}

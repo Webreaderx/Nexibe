@@ -174,7 +174,7 @@ const handleSubmit=async (e)=>{
 
             </div>
 
-            <div className=" flex md:hidden items-center justify-center w-full">
+            <div className=" flex mt-2 md:hidden items-center justify-center w-full">
               <img className="h-30" src="\images\Logo_tag tr.png" alt="" />
             </div>
 
