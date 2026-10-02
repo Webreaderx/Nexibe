@@ -77,7 +77,7 @@ export default function Login() {
             </div>
 
             <div className=" flex md:hidden items-center justify-center w-full">
-              <img className="h-50" src="\images\Logo_tag tr.png" alt="" />
+              <img className="h-30" src="\images\Logo_tag tr.png" alt="" />
             </div>
 
             {/* Right / bottom panel — form */}
